@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FF4081"
+
+    android:background="#FF4081"
+    >
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:icon="@drawable/ic_home_white_24dp"
+            android:title="Home"/>
+
+        <item android:id="@+id/nav_socialdeck" android:icon="@android:drawable/ic_menu_camera"
+            android:title="SocialDeck" />
+        <item android:id="@+id/nav_celeb_hair" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Celebrity Hair Styles" />
+        <item android:id= "@+id/look_book" android:icon = "@android:drawable/ic_menu_slideshow"
+            android:title="Look Book"/>
+        <item android:id="@+id/nav_nails" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Nails" />
+        <item android:id="@+id/nav_just_hair" android:icon="@android:drawable/ic_menu_manage"
+        android:title="Just Hair" />
+        <item android:id="@+id/nav_stylists" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Stylists" />
+    </group>
+
+
+    <item android:title="Bookings">
+        <menu>
+             <item android:id="@+id/hair_appointment" android:icon="@drawable/ic_event_white_24dp"
+                 android:title="Hair Appointment"
+                 />
+            <item android:id="@+id/nails_appointment" android:icon="@drawable/ic_event_white_24dp"
+                android:title="Nails Appointment"/>
+        </menu>
+    </item>
+
+    <item android:title="Social">
+        <menu>
+            <item android:id="@+id/chat" android:icon="@drawable/ic_chat_white_24dp"
+                android:title="StylR ChatRoom" />
+
+
+            <item android:id="@+id/Help" android:icon="@drawable/ic_help_white_24dp"
+                android:title="StylR Help" />
+
+            <item android:id="@+id/nav_tools" android:icon="@drawable/ic_settings_white_24dp"
+                android:title="StylR Tools" />
+        </menu>
+    </item>
+
+</menu>

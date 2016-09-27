@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image  com.android.volley.toolbox.NetworkImageView -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dpic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/profile" />
+
+    <!-- Shuttle Service Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dpic"
+        android:layout_toRightOf="@+id/dpic"
+        android:text="Obakeng Moshane"
+        android:layout_marginLeft="4dp"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/handle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:layout_marginLeft="4dp"
+        android:text="/@obiewankanobi"
+        android:layout_toRightOf="@+id/dpic"
+        android:textSize="@dimen/rating" />
+
+    <!-- distance -->
+    <TextView
+        android:id="@+id/dateuploaded"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/dpic"
+        android:layout_below="@+id/handle"
+android:layout_marginTop="5dp"
+        android:textColor="@color/genre"
+        android:text="04-Feb-2016 13:45PM"
+        android:textSize="@dimen/genre" />
+
+    <!-- location-->
+
+
+    <!-- Image Uplaoded details -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/statusmsg"
+    android:layout_below="@id/dpic"
+    android:layout_marginTop="5dp"
+    android:text="Hello World this is the msg section related to below dpic"
+    />
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/uploadedimage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/statusmsg"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/profile" />
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "284395923560",
+    "firebase_url": "https://stylr-1333.firebaseio.com",
+    "project_id": "stylr-1333",
+    "storage_bucket": "stylr-1333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284395923560:android:e976b8c569993075",
+        "android_client_info": {
+          "package_name": "com.hair.fleek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284395923560-9j4642m8rp7qns4pksqucskgf3m6ec56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUMCQJYddchoa0NPg2auynIk5mrOxPMiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

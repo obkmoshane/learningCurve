@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/status_dialog_bg"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loading" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingtext"
+        android:text="Loading..."
+        android:layout_alignBottom="@+id/loading"
+        android:layout_alignTop="@+id/loading"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/loading"/>
+</RelativeLayout>
